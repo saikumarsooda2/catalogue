@@ -7,7 +7,7 @@ pipeline {
       stages {
              stage('code checkout') {
                  steps {
-                     echo 'code checkout'
+                     git "https://github.com/saikumarsooda2/catalogue.git "
                  }
              }
 
